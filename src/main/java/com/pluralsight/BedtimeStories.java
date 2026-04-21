@@ -44,7 +44,25 @@ public class BedtimeStories {
             }
         }
 
-    }
+        try {
+            BufferedReader reader = new BufferedReader(new FileReader(fileName));
 
+            String line;
+            int lineNumber = 1;
+
+            while ((line = reader.readLine()) != null) {
+                System.out.println(lineNumber + " " + line);
+                lineNumber++;
+                Thread.sleep(1000);
+            }
+            reader.close();
+
+        } catch (IOException e) {
+            System.out.println("Could not find or read file: " + e.getMessage());
+        } catch (InterruptedException e) {
+            System.out.println("Story was interrupted!");
         }
+
+    }
+}
 
