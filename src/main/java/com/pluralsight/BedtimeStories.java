@@ -11,5 +11,12 @@ public class BedtimeStories {
 
         Scanner keyboard = new Scanner(System.in);
 
+        System.out.println("\nWelcome to Bedtime Stories!");
+        System.out.println("⊹₊˚‧︵‿₊୨ᰔ୧₊‿︵‧˚₊⊹⊹₊˚‧︵‿₊୨ᰔ୧₊‿︵‧˚₊⊹");
+        System.out.println("1. Goldilocks and the Three Bears");
+        System.out.println("2. Hansel and Gretel");
+        System.out.println("3. Mary Had a Little Lamb");
+        System.out.print("\nPick a story (1-3): ");
+
     }
 }
