@@ -20,5 +20,17 @@ public class BedtimeStories {
 
         String choice = keyboard.nextLine().trim();
 
+        String fileName;
+        switch (choice) {
+            case "1":
+                fileName = "src/main/resources/goldilocks.txt";
+                break;
+            case "2":
+                fileName = "src/main/resources/hansel_and_gretel.txt";
+                break;
+            case "3":
+                fileName = "src/main/resources/mary_had_a_little_lamb.txt";
+                break;
+        }
     }
 }
