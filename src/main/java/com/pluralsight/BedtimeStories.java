@@ -63,6 +63,8 @@ public class BedtimeStories {
             System.out.println("Story was interrupted!");
         }
 
+        System.out.println("\n The End. Goodnight! ^u^");
+        keyboard.close();
     }
 }
 
