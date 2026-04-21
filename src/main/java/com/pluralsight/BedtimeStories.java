@@ -18,5 +18,7 @@ public class BedtimeStories {
         System.out.println("3. Mary Had a Little Lamb");
         System.out.print("\nPick a story (1-3): ");
 
+        String choice = keyboard.nextLine().trim();
+
     }
 }
